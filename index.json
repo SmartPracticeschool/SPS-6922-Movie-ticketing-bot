@@ -1,0 +1,19 @@
+{"questions": [
+    {"tag": "greeting",
+    "patterns": ["hi","hey","hello"],
+    "response": ["hello..nice to meet you","yeah..hello do you need any help?"]
+    },
+    {"tag": "wish",
+    "patterns":["morning","afternoon","evening","night"],
+    "response":["wish you the same...","hey same to you"]
+    },
+    {"tag": "chatbot",
+    "patterns":["bot","AI","robot"],
+    "response":["thank you for asking... i am unknown bot working for chanakya","hey i am unknown bot working for chanakya"]
+    },
+    {"tag": "about",
+        "patterns":["ticket", "apply","movie", "movies", "tickets", "cinema", "cinemas"],
+        "response":["You can check out some of the movie ticket websites here: https://in.bookmyshow.com/", "Please visit movie website to book a ticket : https://in.bookmyshow.com/"]
+    }
+]
+}
